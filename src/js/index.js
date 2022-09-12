@@ -9,4 +9,13 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+let counter = 995;
+
+
+setInterval(()=>
+{
+    counter++
+    let textcounter = counter.toString().padStart(6, '0')
+    ReactDOM.render(<Home counter={textcounter}/>, document.querySelector("#app"));}
+,1000)
+

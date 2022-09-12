@@ -10,3 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.celda {
+    padding-top: 15px;
+    background-color: #10100a;
+    height: 85px;
+    width: 65px;
+    color: white;
+    border: 1px white solid;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.reloj {
+    padding-top: 25px;
+    background-color: #10100a;
+    height: 85px;
+    width: 65px;
+    color: white;
+    border: 1px white solid;
+    text-align: center;
+    font-weight: bold;
+}
